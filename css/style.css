@@ -329,7 +329,7 @@ a {
 }
 
 .me-img {
-  background: url(../source/me.png) no-repeat center center;
+  background: url("../source/me.png") no-repeat center center;
   background-size: 100%;
   background-position: 0px;
   border-radius: 100%;
