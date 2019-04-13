@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,11 +16,12 @@ hr {
   transition: all ease-in-out 0.3s;
 }
 
-h1, h3 {
+h1,
+h3 {
   color: #333;
 }
 
-.container > h1 {
+.container>h1 {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -61,7 +63,7 @@ a {
 }
 
 .hero {
-  background: url("https://www.vasa.org.uk/site-content/uploads/2018/07/web-in-development.jpg") no-repeat center;
+  background: url("../source/web-in-development.jpg") no-repeat center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.27);
   background-blend-mode: multiply;
@@ -150,26 +152,30 @@ a {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   font-size: 50px;
 }
+
 @media only screen and (min-width: 320px) {
   .inner-text {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
 @media only screen and (min-width: 400px) {
   .inner-text {
     padding-left: 40px;
     padding-right: 40px;
   }
 }
+
 @media only screen and (min-width: 680px) {
   .inner-text {
     font-size: 75px;
   }
 }
+
 @media only screen and (min-width: 950px) {
   .inner-text {
     font-size: 100px;
@@ -183,6 +189,7 @@ a {
   margin: 0;
   line-height: 1;
 }
+
 @media only screen and (max-width: 465px) {
   .p1 {
     position: relative;
@@ -198,6 +205,7 @@ a {
   line-height: 1;
   color: #4FC3F7;
 }
+
 @media only screen and (max-width: 465px) {
   .p2 {
     position: relative;
@@ -213,6 +221,7 @@ a {
   line-height: 1;
   color: #4FC3F7;
 }
+
 @media only screen and (max-width: 465px) {
   .p3 {
     position: relative;
@@ -230,12 +239,16 @@ a {
   color: #f5f5f5;
   border-radius: 100%;
 }
-.hero-down:hover, .hero-down:focus {
+
+.hero-down:hover,
+.hero-down:focus {
   color: #ccc;
 }
+
 .hero-down:active {
   color: #f5f5f5;
 }
+
 .hero-down .btn-react {
   background-color: #f5f5f5;
   height: 100%;
@@ -244,6 +257,7 @@ a {
   opacity: 0;
   position: absolute;
 }
+
 .hero-down i {
   vertical-align: bottom;
   position: relative;
@@ -256,6 +270,7 @@ a {
     margin-right: 15%;
   }
 }
+
 .section--cta {
   color: #454545;
   background: #f1f1f1;
@@ -288,7 +303,7 @@ a {
   padding: 20px;
 }
 
-.box__content > i {
+.box__content>i {
   color: #3b3b58;
 }
 
@@ -314,7 +329,7 @@ a {
 }
 
 .me-img {
-  background: url(https://i.imgur.com/1LADxHx.jpg) no-repeat center center;
+  background: url(../source/me.png) no-repeat center center;
   background-size: 100%;
   background-position: 0px;
   border-radius: 100%;
@@ -377,6 +392,7 @@ a {
     flex: 0 0 30%;
   }
 }
+
 .section-paragraph {
   color: #555;
   text-align: left;
@@ -392,7 +408,7 @@ a {
 }
 
 .background-img {
-  background: url(https://www.vasa.org.uk/site-content/uploads/2018/07/web-in-development.jpg) no-repeat center;
+  background: url("../source/web-in-development.jpg") no-repeat center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.75);
   background-blend-mode: multiply;
@@ -412,9 +428,9 @@ a {
   transition: all ease-in-out 0.3s;
   -webkit-transition: all ease-in-out 0.3s;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -472,7 +488,10 @@ a {
   background-blend-mode: multiply;
 }
 
-.projects:hover, .contact:hover, .diy:hover, .mijn-werk:hover {
+.projects:hover,
+.contact:hover,
+.diy:hover,
+.mijn-werk:hover {
   background-color: rgba(0, 0, 0, 0.85);
   background-blend-mode: darken;
 }
@@ -500,6 +519,7 @@ a {
   transition: all 500ms ease-in-out;
   -webkit-transition: all 500ms ease-in-out;
 }
+
 @media only screen and (max-width: 465px) {
   .icon-row i {
     padding: 10px 10px;
