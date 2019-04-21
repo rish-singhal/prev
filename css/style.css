@@ -410,7 +410,6 @@ a {
 .background-img {
   background: url("../source/web-in-development.jpg") no-repeat center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.75);
   background-blend-mode: multiply;
   background-attachment: fixed;
   padding-top: 50px;
