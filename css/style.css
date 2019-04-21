@@ -725,3 +725,36 @@ a.button.small:hover {
 .footer p {
   opacity: .65;
 }
+
+#spin:after {
+  content: "";
+  animation: spin 7s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "    COMPUTER SCIENCE    ";
+  }
+
+  20% {
+    content: "         MUSIC          ";
+  }
+
+  40% {
+    content: "       TECHNOLOGY       ";
+  }
+
+
+  60% {
+    content: "      PHOTOGRAPHY       ";
+  }
+
+
+  80% {
+    content: "         MAC-OS         ";
+  }
+
+  100% {
+    content: "        BLOGGING        ";
+  }
+}
