@@ -1,1 +1,0 @@
-# Rish-Singhal.github.io
